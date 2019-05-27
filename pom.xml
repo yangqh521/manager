@@ -21,6 +21,7 @@
         <module>manager_dao</module>
         <module>manager_service</module>
         <module>manager_web</module>
+        <module>manager_common</module>
     </modules>
 
     <properties>
@@ -48,23 +49,7 @@
             <version>1.16.18</version>
             <scope>provided</scope>
         </dependency>
-        <!-- guava -->
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>14.0</version>
-        </dependency>
-        <!-- fastjson -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.15</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-            <version>1.1.3</version>
-        </dependency>
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -84,6 +69,11 @@
             <dependency>
                 <groupId>com.manager</groupId>
                 <artifactId>manager_pojo</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.manager</groupId>
+                <artifactId>manager_common</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
