@@ -141,7 +141,7 @@ public class SignUtil {
 
 //        String result = HttpClientUtils.doPost(url, paramsMap, false);
 
-        System.out.println("result: " + result);
+//        System.out.println("result: " + result);
 
     }
 
