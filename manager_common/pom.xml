@@ -25,6 +25,10 @@
             <groupId>com.manager</groupId>
             <artifactId>manager_pojo</artifactId>
         </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
         <!-- guava -->
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -43,6 +47,10 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
         </dependency>
 
     </dependencies>
